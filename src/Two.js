@@ -6,7 +6,7 @@ class Two extends React.Component{
      render(){
              return(
             <div class="box">
-                 Box box box
+                {this.props.title}
              </div>
              ) 
      }
