@@ -13,3 +13,16 @@ h1{
   float: left;
 
 }
+
+.box2{
+  background-color: rgb(241, 138, 2);
+  color: rgb(56, 53, 75);
+  width: 200px;
+  height: 150px;
+  padding: 30px;
+  margin:20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: left;
+  border-radius: 100px;
+  text-align: center;
+}
