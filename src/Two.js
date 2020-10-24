@@ -5,8 +5,14 @@ class Two extends React.Component{
 
      render(){
              return(
-            <div class="box">
+            <div className="box">
                 {this.props.title}
+                <hr/>
+                <ul>
+                     {
+                        this.props.list.map(x=> <li key={x}>{x}</li>)
+                     }
+                </ul>
              </div>
              ) 
      }
